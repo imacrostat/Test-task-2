@@ -112,7 +112,7 @@ body {
 #sidebar {
     float: none;
     width: auto;
-    height: 250px;
+    height: 300px;
     padding: 20px 10px 5px 10px;
     margin: 0 5px 5px 5px;
     transition: width 0.3s, height 0.3s, padding 0.3s;
@@ -132,7 +132,7 @@ body {
     width: 40px;
 }
 
-#controls > div:last-child > input:first-of-type {
+#controls > div:nth-last-child(2) > input:first-of-type {
     margin-top: 10px;
 }
 
@@ -156,6 +156,14 @@ body {
     background-image: linear-gradient(to bottom, #fff, lightblue);
 }
 
+#remover {
+    padding: 1px 7px;  
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+    background: lightpink;
+}
+
 
 /* ------------------------- Content ------------------------- */
 .content {
@@ -173,14 +181,6 @@ body {
 
 .content p {
     text-align: justify;
-}
-
-#remover {
-    padding: 1px 7px;  
-    font-size: 17px;
-    font-weight: bold;
-    color: red;
-    background: lightpink;
 }
 
 @media screen and (min-width: 480px) {
